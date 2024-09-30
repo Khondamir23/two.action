@@ -1,5 +1,12 @@
 @import "./font.css";
 
+:root {
+    --color-blue: #0085e5;
+    --color-text: #484848;
+    --color-orange: #ffa000;
+    --color-accent-bg: #fff4e1;
+}
+
 *,*::before, *::after {
     box-sizing: border-box;
 }
@@ -10,4 +17,9 @@ body {
     background-color: white;
     line-height: 1.85;
     font-family: "Cero Pro", sans-serif;
+    color: var(--color-text);
+}
+
+.header {
+    background: var(--color-accent-bg);
 }
