@@ -16,10 +16,122 @@ body {
     font-size: 14px;
     background-color: white;
     line-height: 1.85;
-    font-family: "Cero Pro", sans-serif;
+    font-family: "Cera Pro", sans-serif;
     color: var(--color-text);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-blue);
+}
+
+button {
+    all:unset;
+}
+
+.button  {
+    background-color: var(--color-blue);
+    border-radius: 16px;
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+    line-height: 1;
+    align-items: center;
 }
 
 .header {
     background: var(--color-accent-bg);
+    padding: 31px 0;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: block;
+    margin-right: 56px;
+}
+
+.header-logo img {
+    height: 44px;
+    display: block;
+    
+}
+
+.header-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.header-nav a {
+    display: block;
+    color:var(--color-text);
+    padding: 14px;
+    font-weight: 500;
+}
+
+.header-switcher {
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+}
+
+.header-switcher span {
+    margin: 0 14px;
+    display: block;
+    border-radius: 12px;
+    height: 24px;
+    width: 42px;
+    background-color: var(--color-blue);
+    position: relative;
+}
+
+.header-switcher span::before {
+    content:"";
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: white;
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.header-switcher .active {
+    font-weight: 500;
+}
+
+.header-login {
+    display: flex;
+    align-items: center;
+    color: var(--color-text);
+    font-size: 15px;
+    margin-left: 54px;
+    margin-right: 0;
+}
+
+.header-login img {
+    margin-right: 10px;
+    height: 16px;
+    width: 16px;
+
+}
+
+.header-register {
+    padding-left: 48px;
+    padding-right: 48px;
+    margin-left: 42px;
 }
