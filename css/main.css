@@ -622,3 +622,8 @@ button {
 .home-service-item:hover .home-service-item-icon .home-service-item-icon-img-hover {
     display: block;
 }
+
+.home-service-item--orange:hover .button {
+    background-color: var(--color-orange);
+    color: white;
+}
