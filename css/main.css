@@ -1,4 +1,6 @@
+@import "/test/test.css";
 @import "./font.css";
+
 
 :root {
     --color-blue: #0085e5;
@@ -767,6 +769,14 @@ button {
     top: 6px;
 }
 
+.home-channels-item-clients-text p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    opacity: 80%;
+}
+
 .home-channels-item-orders-text ul li:last-child::before {
     background: #FFA00038;
 }
@@ -774,6 +784,11 @@ button {
 .home-channels-item-orders-progress {
     flex: 0 0 33%;
     min-width: 33px;
+    position: relative;
+}
+
+.home-channels-item-orders-progress .progress-bar, .home-channels-item-clients-progress .progress-bar {
+    margin-left: auto;
 }
 
 .home-channels-item-clients {
@@ -784,10 +799,25 @@ button {
     display: flex;
 }
 
-.home-channels-item-clients-text p {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 1.5;
-    margin-bottom: 0;
-    opacity: 80%;
+.home-channels-item-clients-progress {
+    flex: 0 0 33%;
+    min-width: 33px;
+    position: relative;
 }
+
+.home-channels-item-clients-progress::before, .home-channels-item-orders-progress::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 1px;
+    height: 54px;
+    background-color: #f2f2f6;
+    transform:translateY(-50%);
+}
+
+.home-channels-item-orders-progress::before {
+    border: 1px solid #0186E633;
+}
+
