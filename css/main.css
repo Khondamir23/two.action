@@ -818,6 +818,62 @@ button {
 }
 
 .home-channels-item-orders-progress::before {
+    background: #0186E633;
+}
+
+.home-channels-footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.home-channels-footer .button {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.home-channels-item--blue {
+    box-shadow: none;
     border: 1px solid #0186E633;
 }
 
+.home-channels-item--blue .home-channels-item-orders{
+    background-color: var(--color-blue);
+    color: white;
+}
+
+.home-channels-item--blue .home-channels-item-orders ul li::before {
+    background-color: white;
+}
+
+.home-channels-item--blue .home-channels-item-orders ul li:last-child::before {
+    background: #FFFFFF52;
+} 
+
+.home-channels-item--blue .home-channels-item-orders-progress::before {
+    background: white;
+}
+
+.home-channels--group {
+    background: #FAFAFD;
+}
+
+.home-channels-item--orange {
+    box-shadow: none;
+}
+
+.home-channels-item--orange .home-channels-item-orders {
+    color: white;
+    background-color: var(--color-orange);
+}
+
+.home-channels-item--orange .home-channels-item-orders ul li::before {
+    background-color: white;
+}
+
+.home-channels-item--orange .home-channels-item-orders ul li:last-child::before {
+    background: #FFFFFF52;
+} 
+
+.home-channels-item--orange .home-channels-item-orders-progress::before {
+    background: white;
+}

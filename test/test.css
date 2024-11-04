@@ -35,3 +35,13 @@
     height:0;
     width:0; 
 }
+
+.progress-bar--white {
+    background: radial-gradient(closest-side, var(--color-blue) 87%, transparent 90% 100%),
+    conic-gradient(#c0ddf538 25%, white 25%);
+}       
+
+.progress-bar--orange {
+    background: radial-gradient(closest-side, var(--color-orange) 87%, transparent 90% 100%),
+    conic-gradient(#f1f1f138 25%, white 25%);
+}
