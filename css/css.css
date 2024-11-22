@@ -1,0 +1,74 @@
+@media (max-width: 1600px) {
+    .home-greetings-img .home-greetings-label--blue {
+        right: 0;
+    }
+
+    .home-greetings-img_laptop {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1439px) {
+    .header-logo {
+        margin-right: 30px;
+    }
+    
+    .header-login {
+        margin-left: 30px;
+    }
+
+    .header-register {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .header-nav a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .home-greetings {
+        padding-bottom: 70px;
+    }
+
+    .home-service-item {
+        padding: 26px;
+    }
+
+    .home-service-item-orders {
+        font-size: 11px;
+    }
+
+    .home-channels-item-orders {
+        padding: 19px 26px 20px 28px;
+    }
+
+    .progress-bar {
+        width: 58px;
+        height: 58px;
+    }
+
+    .home-channels-item-orders-text b, .home-channels-item-clients-text {
+        font-size: 13px;
+    }
+
+    .home-channels-item-orders-text ul, .home-channels-item-clients-text {
+        font-size: 12px;
+    }
+}    
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+    
+}
+
+@media (max-width: 767px) {
+    
+}
+
+@media (max-width: 320px) {
+    
+}
