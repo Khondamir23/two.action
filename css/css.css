@@ -59,15 +59,77 @@
 
 @media (max-width: 1199px) {
 
+    .home-greeting {
+        background-position: 115% 15%;
+
+    }
+
+    .home-actions__wrap {
+        gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .home-actions__wrap h3 {
+        font-size: 17px;
+    }
+
+    .home-service__wrap {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .home-channels__grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .home-reviews__grird {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .home-channels-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .home-service-wrap {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .home-greetings {
+        padding-bottom: 40px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .home-actions {
+        padding: 40px 0;
+    }
+
+    .home-service {
+        padding: 40px 0;
+    }
+
+    .home-channels {
+        padding: 40px 0 40px;
+    }
+
+    .home-reviews {
+        padding: 40px 0 74px;
+    }
 }
 
 @media (max-width: 991px) {
     
+    
+        
 }
 
-@media (max-width: 767px) {
-    
-}
 
 @media (max-width: 320px) {
     
