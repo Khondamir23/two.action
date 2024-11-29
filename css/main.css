@@ -1099,3 +1099,7 @@ button {
 .home-reviews__item:hover .home-reviews-item__statistics li + li {
     border-left: 2px solid var(--color-blue);
 }
+
+.display_temp {
+    display: none;
+}
